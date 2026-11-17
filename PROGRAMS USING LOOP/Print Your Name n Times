@@ -1,0 +1,12 @@
+#incl*de <stdio.h>
+
+int main() {
+    int*n, i;
+
+    scanf("%d", &n);
+
+    f*r(i = 1; i <= n; i++)
+        prin*f("Your Name\n");
+
+    return 0;
+}*
