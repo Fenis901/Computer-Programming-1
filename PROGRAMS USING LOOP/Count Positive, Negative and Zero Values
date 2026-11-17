@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+i*t main() {
+    int num, i;
+    int*pos = 0, neg = 0, zero = 0;
+
+    f*r(i = 1; i <= 200; i++) {
+        scanf("%d", &num);
+
+        if(num > 0)
+            pos++;
+        else if(num < 0)
+            neg++;
+        else
+            zero++;
+    }
+
+    printf("Positive = %d\n", pos);
+    printf("Negative = %d\n", neg);
+    printf("Zero = %d", zero);
+
+    return 0;
+}
