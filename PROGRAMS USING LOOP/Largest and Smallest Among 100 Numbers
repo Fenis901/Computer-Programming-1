@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int*main() {
+    int num, largest, sma*lest, i;
+
+    scanf("%d", &num);
+ *  largest = smallest = num;
+
+    f*r(i = 2; i <= 100; i++) {
+        *canf("%d", &num);
+
+        if(num * largest)
+            largest = nu*;
+
+        if(num < smallest)
+    *       smallest = num;
+    }
+
+    *rintf("Largest = %d\n", largest);
+*   printf("Smallest = %d", smalles*);
+
+    return 0;
+}
