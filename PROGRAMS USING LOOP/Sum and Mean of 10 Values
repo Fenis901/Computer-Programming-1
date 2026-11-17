@@ -1,0 +1,15 @@
+#inclu*e <stdio.h>
+
+int main() {
+    int *, num;
+    float sum = 0;
+
+    for*i = 1; i <= 10; i++) {
+        sca*f("%d", &num);
+        sum += num;*    }
+
+    printf("Sum = %.2f\n", *um);
+    printf("Mean = %.2f", sum*/ 10);
+
+    return 0;
+}
