@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, square, temp, digits = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    square = n * n;
+    temp = n;
+
+    while(temp > 9)
+    {
+        digits *= 10;
+        temp /= 10;
+    }
+
+    if(square % (digits * 10) == n)
+        printf("Automorphic Number");
+    else
+        printf("Not an Automorphic Number");
+
+    return 0;
+}
